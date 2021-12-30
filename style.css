@@ -1,3 +1,83 @@
 body {
 	background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 }
+
+.cabeçalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+}
+
+.cabeçalho-imagem {
+	height: 80px;
+	border-radius: 20px;
+}
+
+.cabeçalho-menu {
+	display: flex;
+	gap: 32px;
+}
+
+.cabeçalho-menu-item {
+	font-family: 'Poppins', sans-serif;
+	color: ghostwhite;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.conteúdo {
+	border-top: 0.4px solid #FFF2E7;
+	margin-bottom: 48px;
+}
+
+.conteúdo-principal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.conteúdo-principal-escrito {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.conteúdo-título {
+	font-family: font-family: 'Maven Pro', sans-serif;;
+	font-size: 66px;
+	font-style: italic;
+	font-weight: 800;
+	color: antiquewhite;
+}
+
+.conteúdo-subtítulo {
+	font-family: "Sarala", sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #ECD6C4;
+}
+
+.botão {
+	background-color: floralwhite;
+	width: 180px;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 6px 7px 6px ;
+	cursor: pointer;
+	transition: 1s all;
+}
+
+.botão:hover {
+	background: #D49B0B;
+	transform: scale(1.2);
+}
+
+.conteúdo-imagem {
+	height: 430px;
+}
